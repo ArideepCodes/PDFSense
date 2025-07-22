@@ -34,6 +34,12 @@ class UILayout:
                 "🗜️ Compress PDF",
             )
         )
+
+        # 👉 Contact Us section
+        st.sidebar.markdown("---")
+        st.sidebar.markdown("📧 **Contact Us**")
+        st.sidebar.markdown("[arideepkanshabanik@gmail.com](mailto:arideepkanshabanik@gmail.com)")
+
         return option
 
     def render_home_page(self):
