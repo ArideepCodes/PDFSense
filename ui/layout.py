@@ -28,7 +28,7 @@ class UILayout:
             "Select an operation",
             (
                 "🏠 Home",
-                "🔁 Convert PDF",
+                "🔁 Convert PDF",   # 📝 Keep this only if you're converting to Word etc.
                 "✂️ Split PDF",
                 "➕ Merge PDFs",
                 "🗜️ Compress PDF",
@@ -59,7 +59,6 @@ class UILayout:
         )
         st.success("Select an operation from the sidebar to get started.")
 
-    # ✅ Updated to support 'multiple' uploads and 'help_text'
     def render_file_uploader(self, label, file_types, multiple=False, help_text=None):
         return st.file_uploader(
             label,
